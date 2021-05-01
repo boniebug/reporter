@@ -32,6 +32,7 @@ jobs:
           node-version: 14.x
       - run: npm install
       - run: npm run lint
+      - run: curl --version
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
