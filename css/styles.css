@@ -38,3 +38,13 @@ th {
   border-left: 3px solid red;
   background: #ff053733;
 }
+
+footer {
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  margin: 35px 0 15px 0;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  color: grey;
+}
