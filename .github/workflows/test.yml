@@ -1,4 +1,3 @@
-# This is a basic workflow to help you get started with Actions
 
 name: CI
 
@@ -22,19 +21,29 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      - uses: actions/checkout@v2
+        with:
+          repository: 'boniebug/vaishnavi-progress'
+          path: 'vaishnavi-progress'
+          token: ${{ secrets.GIT_TOKEN }}
+          
       - uses: actions/checkout@v2
         with:
           repository: 'boniebug/is-even-vaishnavi'
-          path: 'source'
+          path: 'is-even-vaishnavi'
           token: ${{ secrets.GIT_TOKEN }}
+          
       - uses: actions/setup-node@v2
         with:
           node-version: 14.x
+
       - run: npm install
       - run: npm run lint
-      - run: curl --version
+      
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
+
