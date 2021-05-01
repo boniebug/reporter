@@ -75,6 +75,11 @@
   60:1   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
   61:29  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
 
-✖ 74 problems (74 errors, 0 warnings)
-  73 errors and 0 warnings potentially fixable with the `--fix` option.
+/home/runner/work/reporter/reporter/vaishnavi-progress/test.js
+  1:1   error  Unexpected console statement                     no-console
+  1:65  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  1:65  error  Missing semicolon                                semi
+
+✖ 77 problems (77 errors, 0 warnings)
+  75 errors and 0 warnings potentially fixable with the `--fix` option.
 
