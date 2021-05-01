@@ -1,0 +1,80 @@
+
+/home/runner/work/reporter/reporter/public/js/index.js
+   1:41  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+   2:39  error  Strings must use singlequote                     quotes
+   2:45  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+   3:20  error  Strings must use singlequote                     quotes
+   3:27  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+   4:29  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+   5:15  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+   6:3   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+   7:1   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+   8:29  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+   9:37  error  Strings must use singlequote                     quotes
+   9:43  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  10:20  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  11:25  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  12:22  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  13:21  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  14:22  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  15:23  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  16:1   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  17:26  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  18:13  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  19:3   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  20:1   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  21:71  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  22:37  error  Strings must use singlequote                     quotes
+  22:43  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  23:17  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  24:29  error  No magic number: 1                               no-magic-numbers
+  24:33  error  Strings must use singlequote                     quotes
+  24:43  error  Strings must use singlequote                     quotes
+  24:69  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  25:25  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  26:24  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  27:21  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  28:23  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  29:5   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  30:23  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  31:13  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  32:3   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  33:1   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  34:37  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  35:40  error  Strings must use singlequote                     quotes
+  35:49  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  36:33  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  37:21  error  Strings must use singlequote                     quotes
+  37:30  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  38:29  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  39:49  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  40:34  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  41:16  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  42:3   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  43:1   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  44:35  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  45:42  error  Strings must use singlequote                     quotes
+  45:54  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  46:29  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  47:52  error  Strings must use singlequote                     quotes
+  47:59  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  48:33  error  Strings must use singlequote                     quotes
+  48:42  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  49:68  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  50:66  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  51:42  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  52:6   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  53:3   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  54:1   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  55:28  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  56:9   error  Strings must use singlequote                     quotes
+  56:28  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  57:33  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  58:27  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  59:3   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  60:1   error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+  61:29  error  Expected linebreaks to be 'CRLF' but found 'LF'  linebreak-style
+
+✖ 74 problems (74 errors, 0 warnings)
+  73 errors and 0 warnings potentially fixable with the `--fix` option.
+
