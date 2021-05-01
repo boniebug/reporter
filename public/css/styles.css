@@ -1,0 +1,40 @@
+body {
+  background: whitesmoke;
+  font-family: sans-serif;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+#reports {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file {
+  cursor: pointer;
+}
+
+td,
+th {
+  background: #9ba4ad1a;
+  border-radius: 3px;
+  /* border-collapse: collapse; */
+}
+
+td,
+th {
+  padding: 8px 20px;
+}
+
+th {
+  background: #6c757d33;
+}
+
+.error {
+  border-left: 3px solid red;
+  background: #ff053733;
+}
