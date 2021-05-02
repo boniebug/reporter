@@ -36,8 +36,8 @@ jobs:
           
       - uses: actions/checkout@v2
         with:
-          repository: 'boniebug/created_from_cmd'
-          path: 'created_from_cmd'
+          repository: 'boniebug/test-repo-generation-automation'
+          path: 'test-repo-generation-automation'
           token: ${{ secrets.GIT_TOKEN }}
           
       - uses: actions/setup-node@v2
