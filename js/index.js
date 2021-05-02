@@ -52,16 +52,10 @@ const generateReport = (data) => {
   });
 };
 
-const updateDate = () => {
-  const date = new Date();
-  document.querySelector('footer').innerText += ` ${date.toLocaleString()}`;
-}
-
 const fetchReport = () => {
   fetch("data/report.json")
     .then((data) => data.json())
-    .then(generateReport)
-    .then(updateDate);
+    .then(generateReport);
 };
 
 window.onload = fetchReport;
