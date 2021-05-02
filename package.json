@@ -5,7 +5,8 @@
   "main": "arithmeticOperations.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "mkdir -p public/data && eslint --no-error-on-unmatched-pattern -c ./.eslintrc.json -f json --ignore-pattern public ./ | tee public/data/report.json"
+    "lint": "mkdir -p public/data && eslint --no-error-on-unmatched-pattern -c ./.eslintrc.json -f json --ignore-pattern public ./ | tee public/data/report.json",
+    "updateTime": "sed -ie \"s/__DATE__/$(date)/\" public/index.html"
   },
   "repository": {
     "type": "git",
