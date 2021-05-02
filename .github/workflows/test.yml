@@ -34,6 +34,12 @@ jobs:
           path: 'is-even-vaishnavi'
           token: ${{ secrets.GIT_TOKEN }}
           
+      - uses: actions/checkout@v2
+        with:
+          repository: 'boniebug/created_from_cmd'
+          path: 'created_from_cmd'
+          token: ${{ secrets.GIT_TOKEN }}
+          
       - uses: actions/setup-node@v2
         with:
           node-version: 14.x
