@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "mkdir -p public/data && eslint --no-error-on-unmatched-pattern -c ./.eslintrc.json -f json --ignore-pattern public ./ | tee public/data/report.json",
-    "updateTime": "sed -ie \"s/__DATE__/$(date)/\" public/index.html"
+    "updateTime": "sed -ie \"s/__DATE__/$(date)/\" public/index.html",
+    "notifySlack": "node src/notifySlack.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/abhilashkasula/test#readme",
   "devDependencies": {
     "eslint": "^7.25.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
