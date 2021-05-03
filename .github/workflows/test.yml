@@ -48,6 +48,9 @@ jobs:
       - run: npm install
       - run: npm run lint
       - run: npm run updateTime
+      - run: npm run notifySlack
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
       
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
