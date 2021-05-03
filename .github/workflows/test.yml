@@ -36,8 +36,8 @@ jobs:
           
       - uses: actions/checkout@v2
         with:
-          repository: 'boniebug/test-repo-generation-automation'
-          path: 'test-repo-generation-automation'
+          repository: 'boniebug/automated-repo-generation'
+          path: 'automated-repo-generation'
           token: ${{ secrets.GIT_TOKEN }}
           
       - uses: actions/setup-node@v2
@@ -58,4 +58,3 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
-
