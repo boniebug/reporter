@@ -1,4 +1,3 @@
-/* eslint-disable */
 const axios = require('axios');
 const WEBHOOK_URL = process.env.SLACK_WEBHOOK;
 
